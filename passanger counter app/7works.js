@@ -4,15 +4,11 @@
 // increment the count variable when the button is clicked (log it out)
 // change the count-el in the HTML to reflect the new count
 
-var countNumber=document.getElementById("count-el")
+
 let count=0;
 function increment(){
     count=count+1;
-    countNumber.innerHTML=count
-     
+     console.log(count)
 }
-function save(){
-    console.log(count)
 
-}
 
